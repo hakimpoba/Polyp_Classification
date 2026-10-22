@@ -1,0 +1,10 @@
+
+torch==2.14.1
+torchvision==0.29.1
+numpy
+pandas
+Pillow
+scikit-learn
+matplotlib
+opencv-python
+albumentations==2.0.8
