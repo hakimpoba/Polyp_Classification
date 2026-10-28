@@ -47,3 +47,17 @@ results/
 .env
 .env.*
 !.env.example
+
+# New hospital PDF-extracted images - private
+data_pdf_sorted/
+
+# Dataset V2 split and private quality reports
+data_split_v2/
+data_pdf_image_quality_report.csv
+data_pdf_duplicate_candidates.csv
+
+# Private clinical data and experiment outputs
+*manifest*.csv
+*patient*groups*.csv
+results_v2/
+results_v2_cv/
